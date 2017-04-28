@@ -1,0 +1,1139 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0383A13C6B7C59A3D8EA592B545DABA0 /* JTAppleCalendarDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D177B270DF5EE7DB69A321D62820B6A /* JTAppleCalendarDelegateProtocol.swift */; };
+		0972E19CEE67561F89EF20C31F267069 /* DatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59311054F3F899A24A56638FC3D1B0BD /* DatasourceCell.swift */; };
+		17613FDAD6CE483FC17FEB17B68C54FF /* Pods-GiveDapps-newUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1302FF46611AEF67543CDC86A4931540 /* Pods-GiveDapps-newUITests-dummy.m */; };
+		18904C96207EA9E40B4E71F855201AD8 /* JTAppleCalendarVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38426DF3B765C4581BC0224BD23CA18 /* JTAppleCalendarVariables.swift */; };
+		21A3A4A6EF95F8704DC18E4E5F509D07 /* JTAppleCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9691A417523E564C35316169AB46C69 /* JTAppleCollectionReusableView.swift */; };
+		2856845AB8FCE3B1D319091061F593EF /* UserInteractionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C6C8A2890519D21F903256D2D4F34 /* UserInteractionFunctions.swift */; };
+		2E083D9FBA1A9494DA1058C17E1DCA60 /* DiscardableImageCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B516327CC7D7C5C7855C9BAB07721 /* DiscardableImageCacheItem.swift */; };
+		2F7DAF9F97781335A86074F9BC93406A /* Pods-GiveDapps-newTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECFAA29EF09969D478C1D078C05F4D1 /* Pods-GiveDapps-newTests-dummy.m */; };
+		35082392A9A41FCD4EAA61BED1A16E86 /* NSMutableAttributedString+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72E82EDB6A7EBC89ECF127243284E1E /* NSMutableAttributedString+Helper.swift */; };
+		350B5C3B8EBA9031E55851296A8687C6 /* Pods-GiveDapps-newTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8D8614F026C6B2B5EB42A2AB8D13EC /* Pods-GiveDapps-newTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B98DD36F44A62004105310CD66858C /* DefaultCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2506CCEEC551421DBBF7135991F77EED /* DefaultCells.swift */; };
+		3931B2F6A6B8DAF241A7786B60E40F0A /* UIButton+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFB11BC56CEE3121FA5AE77EA62428 /* UIButton+Helper.swift */; };
+		42F0A3DBCAC670C336C5C988F6609D98 /* UICollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29190CA1A6C038960DFF0E605B3D5D9D /* UICollectionViewDelegates.swift */; };
+		45F9553B5C19878D3CE0ABF7452054B0 /* Pods-GiveDapps-new-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2C38173091209342AA82272320A23F /* Pods-GiveDapps-new-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F02DB4E963A82AF95797B41A0B01B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		53D7D34D0142A101314ABFA663AC9D08 /* JTAppleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A079C0F23A8F1EE7CC1048B64D6EEB24 /* JTAppleCalendarView.swift */; };
+		5785495E154B3D97E534C5495F1D22C1 /* LBTALabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D6C5A104A5B36BC8958DD8605ADACE /* LBTALabel.swift */; };
+		6DE7D8CE614DBA55D744EDE81C632AD8 /* CalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E726AC06CA205BFA688D160AB956624 /* CalendarStructs.swift */; };
+		6E8E4422AA0E96DCBB9D329BDFFB881A /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD42157838495BAE5A5D34191DC706B /* GlobalFunctionsAndExtensions.swift */; };
+		7353E0B11E9E7B5519C128FE15E2DB55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		794878C4594AF0CF42D892E34A783863 /* Pods-GiveDapps-newUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7478B0194DBC26DB05975FBE5A83F953 /* Pods-GiveDapps-newUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BB4D97A26767E1133EBA0B96766E51C /* LBTAComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B60059611807283DE32EAD4EF0BA6886 /* LBTAComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BE39092951B492E5954D8012747BFD0 /* JTAppleCalendarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E253728778BCCCF7BE6975979F90217 /* JTAppleCalendarLayout.swift */; };
+		8328C8198F54329E00570F05BACC94ED /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CEC8C9E3BFBFF34E442BD1AD5CD3E8 /* Datasource.swift */; };
+		87329FA016F0D57803855BCE3E90EC82 /* JTCalendarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E86C880BB49F7E104C41FB6C45F97 /* JTCalendarProtocols.swift */; };
+		8DBB8E9521A8F540E337C4242DB8299A /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433007E0C23B12CEFF813156FB1D70CC /* UIImage+Helper.swift */; };
+		A0B1B6264A657334BF9C3B429AEC65C9 /* LBTATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7FF73BAEE96B8375F6C0A36CE0DBB8 /* LBTATextView.swift */; };
+		AD07BFC6787F19F9D7CADB48C114FDB7 /* JTAppleCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF741CA3AB48AB569F184AF3062850F2 /* JTAppleCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2BC077FD95B098DD166E7389E6D105E /* Pods-GiveDapps-new-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B188BAB870A00983B68ABB0BE21D7D4E /* Pods-GiveDapps-new-dummy.m */; };
+		B815F6A8C0E87E87871758E6EAD46D89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C15E4DD8E4D60E2EDE5C2442B3A4F73B /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06FCE052C270EA2123C5A3FF5B531E7 /* CachedImageView.swift */; };
+		D48606A1533FF40F13FC7AD3A62AC721 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DEB5B523B4C10B7C832D5E3E970EDE64 /* DatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788DCDC7FCFD57C59E78AF2B7BB2176A /* DatasourceController.swift */; };
+		E0F3F5B4149F462C15BDE35D2793ECF6 /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67221E5AB66286733D909B9D673E38DE /* UIColor+Helper.swift */; };
+		E10E15A8A65DB167DE5046915870021A /* JTAppleCalendarLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C91BB68998CB263B89226E380E1782 /* JTAppleCalendarLayoutProtocol.swift */; };
+		E1CF59B57CC636FECACC39325231B177 /* CalendarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7E4C65A4C686DB50553C902DC0658C /* CalendarEnums.swift */; };
+		E2F03FADC2821A9AE79BC89B92C53EA6 /* LBTAComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2B5630878E4F9469F6AEDE89F76763 /* LBTAComponents-dummy.m */; };
+		E4E19B08166BF4E9E368134D68E9C7DE /* JTAppleCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0BB1D85D1BF5E3D568C5CD4BD5D0D4 /* JTAppleCalendar-dummy.m */; };
+		E925F84F7677DA272303B23BA96321D3 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AD4EB9BFF0CA1943338D9FC6AF73DD /* UIView+Anchors.swift */; };
+		F2A255EB305DEDAD9278D94162955D21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F2BB49EF903A70B7B68565CCE233FB83 /* JTAppleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B60E2C775F813583DD641BE9DF28CE /* JTAppleCell.swift */; };
+		F963037A1450F74FAE911C248EED47CE /* UIScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6CE140B629BC4B6D34859B76FD47A /* UIScrollViewDelegates.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8B90CD2ED3832CFA33F4A48FDAD4E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFED2E29E95E065400F8846E0231A970;
+			remoteInfo = JTAppleCalendar;
+		};
+		FE3CE3F7DEE5D4E4A05363D0664BA7E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A196107BC8DB338FC11C9CE9510573C;
+			remoteInfo = LBTAComponents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025E27AE7D854845CAB5D4E91A9159BE /* Pods_GiveDapps_newTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GiveDapps_newTests.framework; path = "Pods-GiveDapps-newTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7E4C65A4C686DB50553C902DC0658C /* CalendarEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarEnums.swift; path = Sources/CalendarEnums.swift; sourceTree = "<group>"; };
+		0E253728778BCCCF7BE6975979F90217 /* JTAppleCalendarLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayout.swift; path = Sources/JTAppleCalendarLayout.swift; sourceTree = "<group>"; };
+		0E726AC06CA205BFA688D160AB956624 /* CalendarStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarStructs.swift; path = Sources/CalendarStructs.swift; sourceTree = "<group>"; };
+		1302FF46611AEF67543CDC86A4931540 /* Pods-GiveDapps-newUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GiveDapps-newUITests-dummy.m"; sourceTree = "<group>"; };
+		13AC8696597751C2453CF52643AFB921 /* LBTAComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBTAComponents.framework; path = LBTAComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0B0B009B04468875B0422195DF88F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2506CCEEC551421DBBF7135991F77EED /* DefaultCells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultCells.swift; path = LBTAComponents/Classes/DefaultCells.swift; sourceTree = "<group>"; };
+		29190CA1A6C038960DFF0E605B3D5D9D /* UICollectionViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewDelegates.swift; path = Sources/UICollectionViewDelegates.swift; sourceTree = "<group>"; };
+		2D177B270DF5EE7DB69A321D62820B6A /* JTAppleCalendarDelegateProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarDelegateProtocol.swift; path = Sources/JTAppleCalendarDelegateProtocol.swift; sourceTree = "<group>"; };
+		36AD4EB9BFF0CA1943338D9FC6AF73DD /* UIView+Anchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchors.swift"; path = "LBTAComponents/Classes/UIView+Anchors.swift"; sourceTree = "<group>"; };
+		397FAC117E67AD14F5E5FF30EE0A1021 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8E86C880BB49F7E104C41FB6C45F97 /* JTCalendarProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTCalendarProtocols.swift; path = Sources/JTCalendarProtocols.swift; sourceTree = "<group>"; };
+		433007E0C23B12CEFF813156FB1D70CC /* UIImage+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Helper.swift"; path = "LBTAComponents/Classes/UIImage+Helper.swift"; sourceTree = "<group>"; };
+		46F67296B98B44336F48AE93070A30B7 /* Pods-GiveDapps-new-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GiveDapps-new-acknowledgements.markdown"; sourceTree = "<group>"; };
+		480C2AAE29BBBC6DE80AFDBA7AC6D813 /* Pods-GiveDapps-newUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GiveDapps-newUITests.modulemap"; sourceTree = "<group>"; };
+		485DF00E24ACBBF3EE93CBD51452DDD8 /* Pods-GiveDapps-newUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GiveDapps-newUITests-resources.sh"; sourceTree = "<group>"; };
+		493B4F4B5390A34356E559C543927519 /* JTAppleCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTAppleCalendar.xcconfig; sourceTree = "<group>"; };
+		51C91BB68998CB263B89226E380E1782 /* JTAppleCalendarLayoutProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayoutProtocol.swift; path = Sources/JTAppleCalendarLayoutProtocol.swift; sourceTree = "<group>"; };
+		5259F386FAC6FAE982E26A5AFB834080 /* Pods_GiveDapps_newUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GiveDapps_newUITests.framework; path = "Pods-GiveDapps-newUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		555DBFC88F93C1E5F9AA1D9D6654F878 /* Pods-GiveDapps-new-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GiveDapps-new-frameworks.sh"; sourceTree = "<group>"; };
+		57764A830685004C2E647244ED04D90D /* LBTAComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LBTAComponents.modulemap; sourceTree = "<group>"; };
+		57FFB11BC56CEE3121FA5AE77EA62428 /* UIButton+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Helper.swift"; path = "LBTAComponents/Classes/UIButton+Helper.swift"; sourceTree = "<group>"; };
+		59311054F3F899A24A56638FC3D1B0BD /* DatasourceCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatasourceCell.swift; path = LBTAComponents/Classes/DatasourceCell.swift; sourceTree = "<group>"; };
+		5A2B5630878E4F9469F6AEDE89F76763 /* LBTAComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBTAComponents-dummy.m"; sourceTree = "<group>"; };
+		5FC6CE140B629BC4B6D34859B76FD47A /* UIScrollViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollViewDelegates.swift; path = Sources/UIScrollViewDelegates.swift; sourceTree = "<group>"; };
+		634904F49A691978C9A1190AEE0BC9E4 /* LBTAComponents.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBTAComponents.xcconfig; sourceTree = "<group>"; };
+		64FD331F1B3F835EDC3C4CB5DDEAFBBC /* JTAppleCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JTAppleCalendar.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67221E5AB66286733D909B9D673E38DE /* UIColor+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Helper.swift"; path = "LBTAComponents/Classes/UIColor+Helper.swift"; sourceTree = "<group>"; };
+		68B60E2C775F813583DD641BE9DF28CE /* JTAppleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCell.swift; path = Sources/JTAppleCell.swift; sourceTree = "<group>"; };
+		6ECFAA29EF09969D478C1D078C05F4D1 /* Pods-GiveDapps-newTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GiveDapps-newTests-dummy.m"; sourceTree = "<group>"; };
+		6F8D8614F026C6B2B5EB42A2AB8D13EC /* Pods-GiveDapps-newTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GiveDapps-newTests-umbrella.h"; sourceTree = "<group>"; };
+		7478B0194DBC26DB05975FBE5A83F953 /* Pods-GiveDapps-newUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GiveDapps-newUITests-umbrella.h"; sourceTree = "<group>"; };
+		7881B4D76AF714B474D37CF1869BE2CC /* Pods-GiveDapps-newTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GiveDapps-newTests.release.xcconfig"; sourceTree = "<group>"; };
+		788DCDC7FCFD57C59E78AF2B7BB2176A /* DatasourceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatasourceController.swift; path = LBTAComponents/Classes/DatasourceController.swift; sourceTree = "<group>"; };
+		7B7FF73BAEE96B8375F6C0A36CE0DBB8 /* LBTATextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTATextView.swift; path = LBTAComponents/Classes/LBTATextView.swift; sourceTree = "<group>"; };
+		7EB13FB3A9EBB2106D731F2C2EBEF486 /* Pods-GiveDapps-newUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GiveDapps-newUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		857DC02A94B7B27BB54F04CF39ABABC8 /* Pods-GiveDapps-newUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GiveDapps-newUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89545DC6E792EF411F5C92556CA81D10 /* Pods-GiveDapps-newUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GiveDapps-newUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8B2BCF249EDD4991D94D5AF114DA808A /* Pods_GiveDapps_new.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GiveDapps_new.framework; path = "Pods-GiveDapps-new.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0BB1D85D1BF5E3D568C5CD4BD5D0D4 /* JTAppleCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTAppleCalendar-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9418CB8AFE2FC8C2F61810E28E670366 /* JTAppleCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-prefix.pch"; sourceTree = "<group>"; };
+		9D2C38173091209342AA82272320A23F /* Pods-GiveDapps-new-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GiveDapps-new-umbrella.h"; sourceTree = "<group>"; };
+		9D35D5AA67611CB4E5FD6E8C67BB0F1A /* Pods-GiveDapps-newTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GiveDapps-newTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A079C0F23A8F1EE7CC1048B64D6EEB24 /* JTAppleCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarView.swift; path = Sources/JTAppleCalendarView.swift; sourceTree = "<group>"; };
+		A44F8B931A0BD9922100E89AC5A49669 /* Pods-GiveDapps-new-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GiveDapps-new-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA5483EAEB3E65B910D4C03A01656F07 /* Pods-GiveDapps-newTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GiveDapps-newTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B08B875A244BA30399114880B2C09D48 /* Pods-GiveDapps-newTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GiveDapps-newTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B188BAB870A00983B68ABB0BE21D7D4E /* Pods-GiveDapps-new-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GiveDapps-new-dummy.m"; sourceTree = "<group>"; };
+		B38426DF3B765C4581BC0224BD23CA18 /* JTAppleCalendarVariables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarVariables.swift; path = Sources/JTAppleCalendarVariables.swift; sourceTree = "<group>"; };
+		B60059611807283DE32EAD4EF0BA6886 /* LBTAComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTAComponents-umbrella.h"; sourceTree = "<group>"; };
+		B6F19F9F02BC34A739D7C27880E9426A /* Pods-GiveDapps-newUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GiveDapps-newUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9691A417523E564C35316169AB46C69 /* JTAppleCollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCollectionReusableView.swift; path = Sources/JTAppleCollectionReusableView.swift; sourceTree = "<group>"; };
+		BA68B156C3687DC8CF536A7F718B242B /* Pods-GiveDapps-new-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GiveDapps-new-resources.sh"; sourceTree = "<group>"; };
+		BFD97489AECC1061D7192C55FC6687BD /* Pods-GiveDapps-newTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GiveDapps-newTests-resources.sh"; sourceTree = "<group>"; };
+		C08CBA55364E52874ACC969E18F31732 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JTAppleCalendar.framework; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C353B3DD3296123B08C37463F4E081 /* Pods-GiveDapps-newTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GiveDapps-newTests.modulemap"; sourceTree = "<group>"; };
+		C843235CBAE2FA175BB1401FCD15114D /* LBTAComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTAComponents-prefix.pch"; sourceTree = "<group>"; };
+		C8D6C5A104A5B36BC8958DD8605ADACE /* LBTALabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTALabel.swift; path = LBTAComponents/Classes/LBTALabel.swift; sourceTree = "<group>"; };
+		CEAFD244FC8F8E8999E3EE7E4DE795CC /* Pods-GiveDapps-new.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GiveDapps-new.release.xcconfig"; sourceTree = "<group>"; };
+		CFD42157838495BAE5A5D34191DC706B /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalFunctionsAndExtensions.swift; path = Sources/GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
+		D018628DE5181827FDC2C884DD47B3F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0CEC8C9E3BFBFF34E442BD1AD5CD3E8 /* Datasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Datasource.swift; path = LBTAComponents/Classes/Datasource.swift; sourceTree = "<group>"; };
+		DA410B7597FE919997E3F35A2F868172 /* Pods-GiveDapps-new.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GiveDapps-new.debug.xcconfig"; sourceTree = "<group>"; };
+		DCBEA61C6945D4F32018255FD2C9D13F /* Pods-GiveDapps-newUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GiveDapps-newUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE3B516327CC7D7C5C7855C9BAB07721 /* DiscardableImageCacheItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscardableImageCacheItem.swift; path = LBTAComponents/Classes/DiscardableImageCacheItem.swift; sourceTree = "<group>"; };
+		E06FCE052C270EA2123C5A3FF5B531E7 /* CachedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedImageView.swift; path = LBTAComponents/Classes/CachedImageView.swift; sourceTree = "<group>"; };
+		E21C6C8A2890519D21F903256D2D4F34 /* UserInteractionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInteractionFunctions.swift; path = Sources/UserInteractionFunctions.swift; sourceTree = "<group>"; };
+		E74487C7F0FA8E7E8916D28E7E355953 /* Pods-GiveDapps-newTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GiveDapps-newTests-frameworks.sh"; sourceTree = "<group>"; };
+		E970D264D5B2ED8E2BA196CC4D424B4D /* Pods-GiveDapps-new.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GiveDapps-new.modulemap"; sourceTree = "<group>"; };
+		E99D35825340F3499CB5FED38871A23B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7512B1533CB669C5682F8C0E8C1B0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF741CA3AB48AB569F184AF3062850F2 /* JTAppleCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-umbrella.h"; sourceTree = "<group>"; };
+		F72E82EDB6A7EBC89ECF127243284E1E /* NSMutableAttributedString+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+Helper.swift"; path = "LBTAComponents/Classes/NSMutableAttributedString+Helper.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DF1C4E33F2B00E3151C568F1F63F05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48606A1533FF40F13FC7AD3A62AC721 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456A38528F491C16A318D4091CF2E1F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B815F6A8C0E87E87871758E6EAD46D89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A4C5D163387F8E3A1CD8D4365E0870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7353E0B11E9E7B5519C128FE15E2DB55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17F8E76E75B595B1DD36CC4241CF348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F02DB4E963A82AF95797B41A0B01B29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3430C5259AFF2B93307BDEFAD1F0446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A255EB305DEDAD9278D94162955D21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3A8E1EE9A7B61A050F1CCED1CDD8F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C08CBA55364E52874ACC969E18F31732 /* JTAppleCalendar.framework */,
+				13AC8696597751C2453CF52643AFB921 /* LBTAComponents.framework */,
+				8B2BCF249EDD4991D94D5AF114DA808A /* Pods_GiveDapps_new.framework */,
+				025E27AE7D854845CAB5D4E91A9159BE /* Pods_GiveDapps_newTests.framework */,
+				5259F386FAC6FAE982E26A5AFB834080 /* Pods_GiveDapps_newUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CD2AFCD4D03F0232AE84F12910703A /* Pods-GiveDapps-new */ = {
+			isa = PBXGroup;
+			children = (
+				D018628DE5181827FDC2C884DD47B3F8 /* Info.plist */,
+				E970D264D5B2ED8E2BA196CC4D424B4D /* Pods-GiveDapps-new.modulemap */,
+				46F67296B98B44336F48AE93070A30B7 /* Pods-GiveDapps-new-acknowledgements.markdown */,
+				A44F8B931A0BD9922100E89AC5A49669 /* Pods-GiveDapps-new-acknowledgements.plist */,
+				B188BAB870A00983B68ABB0BE21D7D4E /* Pods-GiveDapps-new-dummy.m */,
+				555DBFC88F93C1E5F9AA1D9D6654F878 /* Pods-GiveDapps-new-frameworks.sh */,
+				BA68B156C3687DC8CF536A7F718B242B /* Pods-GiveDapps-new-resources.sh */,
+				9D2C38173091209342AA82272320A23F /* Pods-GiveDapps-new-umbrella.h */,
+				DA410B7597FE919997E3F35A2F868172 /* Pods-GiveDapps-new.debug.xcconfig */,
+				CEAFD244FC8F8E8999E3EE7E4DE795CC /* Pods-GiveDapps-new.release.xcconfig */,
+			);
+			name = "Pods-GiveDapps-new";
+			path = "Target Support Files/Pods-GiveDapps-new";
+			sourceTree = "<group>";
+		};
+		2520596C1D86169E3D4B51B9B7F1BBCB /* LBTAComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E06FCE052C270EA2123C5A3FF5B531E7 /* CachedImageView.swift */,
+				D0CEC8C9E3BFBFF34E442BD1AD5CD3E8 /* Datasource.swift */,
+				59311054F3F899A24A56638FC3D1B0BD /* DatasourceCell.swift */,
+				788DCDC7FCFD57C59E78AF2B7BB2176A /* DatasourceController.swift */,
+				2506CCEEC551421DBBF7135991F77EED /* DefaultCells.swift */,
+				DE3B516327CC7D7C5C7855C9BAB07721 /* DiscardableImageCacheItem.swift */,
+				C8D6C5A104A5B36BC8958DD8605ADACE /* LBTALabel.swift */,
+				7B7FF73BAEE96B8375F6C0A36CE0DBB8 /* LBTATextView.swift */,
+				F72E82EDB6A7EBC89ECF127243284E1E /* NSMutableAttributedString+Helper.swift */,
+				57FFB11BC56CEE3121FA5AE77EA62428 /* UIButton+Helper.swift */,
+				67221E5AB66286733D909B9D673E38DE /* UIColor+Helper.swift */,
+				433007E0C23B12CEFF813156FB1D70CC /* UIImage+Helper.swift */,
+				36AD4EB9BFF0CA1943338D9FC6AF73DD /* UIView+Anchors.swift */,
+				A182D5E98172D99B59F4CE0483AC5D62 /* Support Files */,
+			);
+			name = LBTAComponents;
+			path = LBTAComponents;
+			sourceTree = "<group>";
+		};
+		5086BDDA2175D05C1150D0262167D8E7 /* Pods-GiveDapps-newTests */ = {
+			isa = PBXGroup;
+			children = (
+				E99D35825340F3499CB5FED38871A23B /* Info.plist */,
+				C0C353B3DD3296123B08C37463F4E081 /* Pods-GiveDapps-newTests.modulemap */,
+				B08B875A244BA30399114880B2C09D48 /* Pods-GiveDapps-newTests-acknowledgements.markdown */,
+				AA5483EAEB3E65B910D4C03A01656F07 /* Pods-GiveDapps-newTests-acknowledgements.plist */,
+				6ECFAA29EF09969D478C1D078C05F4D1 /* Pods-GiveDapps-newTests-dummy.m */,
+				E74487C7F0FA8E7E8916D28E7E355953 /* Pods-GiveDapps-newTests-frameworks.sh */,
+				BFD97489AECC1061D7192C55FC6687BD /* Pods-GiveDapps-newTests-resources.sh */,
+				6F8D8614F026C6B2B5EB42A2AB8D13EC /* Pods-GiveDapps-newTests-umbrella.h */,
+				9D35D5AA67611CB4E5FD6E8C67BB0F1A /* Pods-GiveDapps-newTests.debug.xcconfig */,
+				7881B4D76AF714B474D37CF1869BE2CC /* Pods-GiveDapps-newTests.release.xcconfig */,
+			);
+			name = "Pods-GiveDapps-newTests";
+			path = "Target Support Files/Pods-GiveDapps-newTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AC8C9662B62BDF5513C90A8DD07B9BA2 /* Pods */,
+				0E3A8E1EE9A7B61A050F1CCED1CDD8F0 /* Products */,
+				80C2EB3ADA9735414107CBDDB176B5A7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80C2EB3ADA9735414107CBDDB176B5A7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14CD2AFCD4D03F0232AE84F12910703A /* Pods-GiveDapps-new */,
+				5086BDDA2175D05C1150D0262167D8E7 /* Pods-GiveDapps-newTests */,
+				F949F31F5E6E8A00A97F2B5DC0C30476 /* Pods-GiveDapps-newUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A182D5E98172D99B59F4CE0483AC5D62 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B0B009B04468875B0422195DF88F8 /* Info.plist */,
+				57764A830685004C2E647244ED04D90D /* LBTAComponents.modulemap */,
+				634904F49A691978C9A1190AEE0BC9E4 /* LBTAComponents.xcconfig */,
+				5A2B5630878E4F9469F6AEDE89F76763 /* LBTAComponents-dummy.m */,
+				C843235CBAE2FA175BB1401FCD15114D /* LBTAComponents-prefix.pch */,
+				B60059611807283DE32EAD4EF0BA6886 /* LBTAComponents-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LBTAComponents";
+			sourceTree = "<group>";
+		};
+		AC8C9662B62BDF5513C90A8DD07B9BA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6B0736565333CA6752C7908F7447855 /* JTAppleCalendar */,
+				2520596C1D86169E3D4B51B9B7F1BBCB /* LBTAComponents */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B294D1FB81F9758FD2DEBA040DF23EDE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				397FAC117E67AD14F5E5FF30EE0A1021 /* Info.plist */,
+				64FD331F1B3F835EDC3C4CB5DDEAFBBC /* JTAppleCalendar.modulemap */,
+				493B4F4B5390A34356E559C543927519 /* JTAppleCalendar.xcconfig */,
+				8C0BB1D85D1BF5E3D568C5CD4BD5D0D4 /* JTAppleCalendar-dummy.m */,
+				9418CB8AFE2FC8C2F61810E28E670366 /* JTAppleCalendar-prefix.pch */,
+				EF741CA3AB48AB569F184AF3062850F2 /* JTAppleCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JTAppleCalendar";
+			sourceTree = "<group>";
+		};
+		B6B0736565333CA6752C7908F7447855 /* JTAppleCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				0D7E4C65A4C686DB50553C902DC0658C /* CalendarEnums.swift */,
+				0E726AC06CA205BFA688D160AB956624 /* CalendarStructs.swift */,
+				CFD42157838495BAE5A5D34191DC706B /* GlobalFunctionsAndExtensions.swift */,
+				2D177B270DF5EE7DB69A321D62820B6A /* JTAppleCalendarDelegateProtocol.swift */,
+				0E253728778BCCCF7BE6975979F90217 /* JTAppleCalendarLayout.swift */,
+				51C91BB68998CB263B89226E380E1782 /* JTAppleCalendarLayoutProtocol.swift */,
+				B38426DF3B765C4581BC0224BD23CA18 /* JTAppleCalendarVariables.swift */,
+				A079C0F23A8F1EE7CC1048B64D6EEB24 /* JTAppleCalendarView.swift */,
+				68B60E2C775F813583DD641BE9DF28CE /* JTAppleCell.swift */,
+				B9691A417523E564C35316169AB46C69 /* JTAppleCollectionReusableView.swift */,
+				3A8E86C880BB49F7E104C41FB6C45F97 /* JTCalendarProtocols.swift */,
+				29190CA1A6C038960DFF0E605B3D5D9D /* UICollectionViewDelegates.swift */,
+				5FC6CE140B629BC4B6D34859B76FD47A /* UIScrollViewDelegates.swift */,
+				E21C6C8A2890519D21F903256D2D4F34 /* UserInteractionFunctions.swift */,
+				B294D1FB81F9758FD2DEBA040DF23EDE /* Support Files */,
+			);
+			name = JTAppleCalendar;
+			path = JTAppleCalendar;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F949F31F5E6E8A00A97F2B5DC0C30476 /* Pods-GiveDapps-newUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7512B1533CB669C5682F8C0E8C1B0B /* Info.plist */,
+				480C2AAE29BBBC6DE80AFDBA7AC6D813 /* Pods-GiveDapps-newUITests.modulemap */,
+				B6F19F9F02BC34A739D7C27880E9426A /* Pods-GiveDapps-newUITests-acknowledgements.markdown */,
+				DCBEA61C6945D4F32018255FD2C9D13F /* Pods-GiveDapps-newUITests-acknowledgements.plist */,
+				1302FF46611AEF67543CDC86A4931540 /* Pods-GiveDapps-newUITests-dummy.m */,
+				89545DC6E792EF411F5C92556CA81D10 /* Pods-GiveDapps-newUITests-frameworks.sh */,
+				485DF00E24ACBBF3EE93CBD51452DDD8 /* Pods-GiveDapps-newUITests-resources.sh */,
+				7478B0194DBC26DB05975FBE5A83F953 /* Pods-GiveDapps-newUITests-umbrella.h */,
+				7EB13FB3A9EBB2106D731F2C2EBEF486 /* Pods-GiveDapps-newUITests.debug.xcconfig */,
+				857DC02A94B7B27BB54F04CF39ABABC8 /* Pods-GiveDapps-newUITests.release.xcconfig */,
+			);
+			name = "Pods-GiveDapps-newUITests";
+			path = "Target Support Files/Pods-GiveDapps-newUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10582B9BCE6C1131E764EE84A7D904A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB4D97A26767E1133EBA0B96766E51C /* LBTAComponents-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17466F84395B7F7C0DD79062CE969CFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350B5C3B8EBA9031E55851296A8687C6 /* Pods-GiveDapps-newTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8F6D4EF8D93844B4F7810BE77D74AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794878C4594AF0CF42D892E34A783863 /* Pods-GiveDapps-newUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C5B2A7A09B86EB4DB3F404C1C4BEC01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F9553B5C19878D3CE0ABF7452054B0 /* Pods-GiveDapps-new-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3B104AA552AE0C55DA5E3D426A375A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD07BFC6787F19F9D7CADB48C114FDB7 /* JTAppleCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02B648531888DB43C8130F8B6E126BB6 /* Pods-GiveDapps-newUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8E7B93D7C1D65B083C0D3CB51698EC /* Build configuration list for PBXNativeTarget "Pods-GiveDapps-newUITests" */;
+			buildPhases = (
+				317502C52935D0583427FAC83A750DF8 /* Sources */,
+				C1A4C5D163387F8E3A1CD8D4365E0870 /* Frameworks */,
+				2C8F6D4EF8D93844B4F7810BE77D74AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GiveDapps-newUITests";
+			productName = "Pods-GiveDapps-newUITests";
+			productReference = 5259F386FAC6FAE982E26A5AFB834080 /* Pods_GiveDapps_newUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0E5B967DC9FBE968A30E7766B51AF5EB /* Pods-GiveDapps-new */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED10A209335043DA1E724605A8357D0 /* Build configuration list for PBXNativeTarget "Pods-GiveDapps-new" */;
+			buildPhases = (
+				249D1509F730D501A7034BDBBC0C86D4 /* Sources */,
+				F17F8E76E75B595B1DD36CC4241CF348 /* Frameworks */,
+				7C5B2A7A09B86EB4DB3F404C1C4BEC01 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3A5A05F2C0FF8E79240275BB2534E1 /* PBXTargetDependency */,
+				FB4CC64730912BD36D6A78087A63CB23 /* PBXTargetDependency */,
+			);
+			name = "Pods-GiveDapps-new";
+			productName = "Pods-GiveDapps-new";
+			productReference = 8B2BCF249EDD4991D94D5AF114DA808A /* Pods_GiveDapps_new.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A196107BC8DB338FC11C9CE9510573C /* LBTAComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA71EDBF1AEDC10AB7D4759574E1C78 /* Build configuration list for PBXNativeTarget "LBTAComponents" */;
+			buildPhases = (
+				8470BA6D1C0D66D5F6430726EBC92908 /* Sources */,
+				F3430C5259AFF2B93307BDEFAD1F0446 /* Frameworks */,
+				10582B9BCE6C1131E764EE84A7D904A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBTAComponents;
+			productName = LBTAComponents;
+			productReference = 13AC8696597751C2453CF52643AFB921 /* LBTAComponents.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFED2E29E95E065400F8846E0231A970 /* JTAppleCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851CF7150444685C470082788BA7AD96 /* Build configuration list for PBXNativeTarget "JTAppleCalendar" */;
+			buildPhases = (
+				5D5AC0418099BE9EFEA67AA7EF8A9423 /* Sources */,
+				456A38528F491C16A318D4091CF2E1F8 /* Frameworks */,
+				EB3B104AA552AE0C55DA5E3D426A375A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTAppleCalendar;
+			productName = JTAppleCalendar;
+			productReference = C08CBA55364E52874ACC969E18F31732 /* JTAppleCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C64BC1D23F6EDB3F1C9380756D07991F /* Pods-GiveDapps-newTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7871876901F34DA677F6D7E42652F37C /* Build configuration list for PBXNativeTarget "Pods-GiveDapps-newTests" */;
+			buildPhases = (
+				A26224E4C694594043268C53304544DC /* Sources */,
+				2DF1C4E33F2B00E3151C568F1F63F05C /* Frameworks */,
+				17466F84395B7F7C0DD79062CE969CFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GiveDapps-newTests";
+			productName = "Pods-GiveDapps-newTests";
+			productReference = 025E27AE7D854845CAB5D4E91A9159BE /* Pods_GiveDapps_newTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0E3A8E1EE9A7B61A050F1CCED1CDD8F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFED2E29E95E065400F8846E0231A970 /* JTAppleCalendar */,
+				1A196107BC8DB338FC11C9CE9510573C /* LBTAComponents */,
+				0E5B967DC9FBE968A30E7766B51AF5EB /* Pods-GiveDapps-new */,
+				C64BC1D23F6EDB3F1C9380756D07991F /* Pods-GiveDapps-newTests */,
+				02B648531888DB43C8130F8B6E126BB6 /* Pods-GiveDapps-newUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		249D1509F730D501A7034BDBBC0C86D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BC077FD95B098DD166E7389E6D105E /* Pods-GiveDapps-new-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317502C52935D0583427FAC83A750DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17613FDAD6CE483FC17FEB17B68C54FF /* Pods-GiveDapps-newUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5AC0418099BE9EFEA67AA7EF8A9423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CF59B57CC636FECACC39325231B177 /* CalendarEnums.swift in Sources */,
+				6DE7D8CE614DBA55D744EDE81C632AD8 /* CalendarStructs.swift in Sources */,
+				6E8E4422AA0E96DCBB9D329BDFFB881A /* GlobalFunctionsAndExtensions.swift in Sources */,
+				E4E19B08166BF4E9E368134D68E9C7DE /* JTAppleCalendar-dummy.m in Sources */,
+				0383A13C6B7C59A3D8EA592B545DABA0 /* JTAppleCalendarDelegateProtocol.swift in Sources */,
+				7BE39092951B492E5954D8012747BFD0 /* JTAppleCalendarLayout.swift in Sources */,
+				E10E15A8A65DB167DE5046915870021A /* JTAppleCalendarLayoutProtocol.swift in Sources */,
+				18904C96207EA9E40B4E71F855201AD8 /* JTAppleCalendarVariables.swift in Sources */,
+				53D7D34D0142A101314ABFA663AC9D08 /* JTAppleCalendarView.swift in Sources */,
+				F2BB49EF903A70B7B68565CCE233FB83 /* JTAppleCell.swift in Sources */,
+				21A3A4A6EF95F8704DC18E4E5F509D07 /* JTAppleCollectionReusableView.swift in Sources */,
+				87329FA016F0D57803855BCE3E90EC82 /* JTCalendarProtocols.swift in Sources */,
+				42F0A3DBCAC670C336C5C988F6609D98 /* UICollectionViewDelegates.swift in Sources */,
+				F963037A1450F74FAE911C248EED47CE /* UIScrollViewDelegates.swift in Sources */,
+				2856845AB8FCE3B1D319091061F593EF /* UserInteractionFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470BA6D1C0D66D5F6430726EBC92908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15E4DD8E4D60E2EDE5C2442B3A4F73B /* CachedImageView.swift in Sources */,
+				8328C8198F54329E00570F05BACC94ED /* Datasource.swift in Sources */,
+				0972E19CEE67561F89EF20C31F267069 /* DatasourceCell.swift in Sources */,
+				DEB5B523B4C10B7C832D5E3E970EDE64 /* DatasourceController.swift in Sources */,
+				37B98DD36F44A62004105310CD66858C /* DefaultCells.swift in Sources */,
+				2E083D9FBA1A9494DA1058C17E1DCA60 /* DiscardableImageCacheItem.swift in Sources */,
+				E2F03FADC2821A9AE79BC89B92C53EA6 /* LBTAComponents-dummy.m in Sources */,
+				5785495E154B3D97E534C5495F1D22C1 /* LBTALabel.swift in Sources */,
+				A0B1B6264A657334BF9C3B429AEC65C9 /* LBTATextView.swift in Sources */,
+				35082392A9A41FCD4EAA61BED1A16E86 /* NSMutableAttributedString+Helper.swift in Sources */,
+				3931B2F6A6B8DAF241A7786B60E40F0A /* UIButton+Helper.swift in Sources */,
+				E0F3F5B4149F462C15BDE35D2793ECF6 /* UIColor+Helper.swift in Sources */,
+				8DBB8E9521A8F540E337C4242DB8299A /* UIImage+Helper.swift in Sources */,
+				E925F84F7677DA272303B23BA96321D3 /* UIView+Anchors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26224E4C694594043268C53304544DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7DAF9F97781335A86074F9BC93406A /* Pods-GiveDapps-newTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA3A5A05F2C0FF8E79240275BB2534E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTAppleCalendar;
+			target = BFED2E29E95E065400F8846E0231A970 /* JTAppleCalendar */;
+			targetProxy = C8B90CD2ED3832CFA33F4A48FDAD4E38 /* PBXContainerItemProxy */;
+		};
+		FB4CC64730912BD36D6A78087A63CB23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBTAComponents;
+			target = 1A196107BC8DB338FC11C9CE9510573C /* LBTAComponents */;
+			targetProxy = FE3CE3F7DEE5D4E4A05363D0664BA7E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1338C7F42BFBDAB58D779068C011D1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D35D5AA67611CB4E5FD6E8C67BB0F1A /* Pods-GiveDapps-newTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GiveDapps-newTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GiveDapps-newTests/Pods-GiveDapps-newTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GiveDapps_newTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		30F8C5C356675ED1B61ED70674C9BF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7881B4D76AF714B474D37CF1869BE2CC /* Pods-GiveDapps-newTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GiveDapps-newTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GiveDapps-newTests/Pods-GiveDapps-newTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GiveDapps_newTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		313891CC7F1018511F289523D81B84AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493B4F4B5390A34356E559C543927519 /* JTAppleCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTAppleCalendar/JTAppleCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTAppleCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JTAppleCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A630C3FD8DC10EEF96968B9BCAEC6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857DC02A94B7B27BB54F04CF39ABABC8 /* Pods-GiveDapps-newUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GiveDapps-newUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GiveDapps-newUITests/Pods-GiveDapps-newUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GiveDapps_newUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72728118B1EA2C84599687475E9489E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB13FB3A9EBB2106D731F2C2EBEF486 /* Pods-GiveDapps-newUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GiveDapps-newUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GiveDapps-newUITests/Pods-GiveDapps-newUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GiveDapps_newUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		998AFC9608B1FAFEB964B224437970AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA410B7597FE919997E3F35A2F868172 /* Pods-GiveDapps-new.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GiveDapps-new/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GiveDapps-new/Pods-GiveDapps-new.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GiveDapps_new;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1B3830997A51E88D8F8ADB0AA20F877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493B4F4B5390A34356E559C543927519 /* JTAppleCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTAppleCalendar/JTAppleCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTAppleCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JTAppleCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A25457BF22F4A661852258E1471FEB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634904F49A691978C9A1190AEE0BC9E4 /* LBTAComponents.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LBTAComponents/LBTAComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBTAComponents/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBTAComponents/LBTAComponents.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LBTAComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB76096C8E80D264218FB6F6B8387CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAFD244FC8F8E8999E3EE7E4DE795CC /* Pods-GiveDapps-new.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GiveDapps-new/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GiveDapps-new/Pods-GiveDapps-new.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GiveDapps_new;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E88A0DB3EEC23A260ED8D842D68EC365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634904F49A691978C9A1190AEE0BC9E4 /* LBTAComponents.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LBTAComponents/LBTAComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBTAComponents/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBTAComponents/LBTAComponents.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LBTAComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8E7B93D7C1D65B083C0D3CB51698EC /* Build configuration list for PBXNativeTarget "Pods-GiveDapps-newUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72728118B1EA2C84599687475E9489E2 /* Debug */,
+				3A630C3FD8DC10EEF96968B9BCAEC6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED10A209335043DA1E724605A8357D0 /* Build configuration list for PBXNativeTarget "Pods-GiveDapps-new" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998AFC9608B1FAFEB964B224437970AF /* Debug */,
+				DB76096C8E80D264218FB6F6B8387CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7871876901F34DA677F6D7E42652F37C /* Build configuration list for PBXNativeTarget "Pods-GiveDapps-newTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1338C7F42BFBDAB58D779068C011D1FF /* Debug */,
+				30F8C5C356675ED1B61ED70674C9BF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851CF7150444685C470082788BA7AD96 /* Build configuration list for PBXNativeTarget "JTAppleCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313891CC7F1018511F289523D81B84AD /* Debug */,
+				A1B3830997A51E88D8F8ADB0AA20F877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BA71EDBF1AEDC10AB7D4759574E1C78 /* Build configuration list for PBXNativeTarget "LBTAComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88A0DB3EEC23A260ED8D842D68EC365 /* Debug */,
+				A25457BF22F4A661852258E1471FEB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

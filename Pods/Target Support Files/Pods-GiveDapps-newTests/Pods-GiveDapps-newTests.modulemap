@@ -1,0 +1,6 @@
+framework module Pods_GiveDapps_newTests {
+  umbrella header "Pods-GiveDapps-newTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

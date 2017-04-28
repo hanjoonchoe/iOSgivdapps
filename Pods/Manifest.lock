@@ -1,0 +1,15 @@
+PODS:
+  - JTAppleCalendar (7.0.0)
+  - LBTAComponents (0.1.9)
+
+DEPENDENCIES:
+  - JTAppleCalendar (~> 7.0)
+  - LBTAComponents
+
+SPEC CHECKSUMS:
+  JTAppleCalendar: 2dd93a9b9ef65a1dcf2822c8e4ee0c7646705f6f
+  LBTAComponents: 9a5d314080d1f80208062ccc81a2d25225c5f572
+
+PODFILE CHECKSUM: c5058d58434c21722982c4b6f4e68c4983d43d06
+
+COCOAPODS: 1.2.0
